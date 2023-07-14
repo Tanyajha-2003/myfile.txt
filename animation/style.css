@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    font-size: 30px;
+    border:10px gray solid;
+}
+    
+*{
+    padding: 25px;
+    
+}
+.container{
+    
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:10px gray solid;
+    animation-name:colorbinge;
+    animation-duration:8s;
+    animation-iteration-count:2;
+}
+@keyframes colorbinge{
+    from{background-image:linear-gradient(to right,bisque,aqua);}
+    to{background-image:linear-gradient(to right,pink ,coral);}   
+}
+
+.text{
+    color:grey;
+}
+.percentage{
+    color:grey;
+    font-size:60px;
+}
